@@ -1,0 +1,51 @@
+
+.text {
+  font-family: 'Yeseva One', cursive;
+  text-align: center;
+}
+h1 {
+  font-family: 'Yeseva One', cursive;
+  font-weight: bold;
+}
+
+.main {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  margin-bottom: 500px;
+}
+
+.col {
+  max-width: 700px;
+  min-width: 100px;
+  flex: none; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+}
+
+.education,
+.experience,
+.about,
+.contact {
+margin: 20px 0;
+padding: 20px;
+}
+
+.section {
+  position: relative;
+}
+
+.section::before {
+  content: "";
+  display: block;
+  height: 60px; /* Give a height approximating that of your navbar */
+  margin-top: -60px; /* Apply negative margin of the same value */
+  visibility: hidden;
+  pointer-events: none;
+}
