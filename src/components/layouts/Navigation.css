@@ -3,24 +3,30 @@ body {
   margin: 0;
   background-color: white;
 }
-
+.me-auto {
+  justify-content: center;
+  text-align: center;
+  margin-right: 0 !important;
+}
 .navbar {
-  padding-left: 20px;
+  display: flex; /* Enable Flexbox */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  padding: 0 20px; /* Adjust padding as needed */
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100%; /* Full width */
   background-color: #f0e9d4;
   z-index: 9999;
+  height: 60px; /* Set a fixed height */
 }
 
-.navbar a,
-.nav-item a {
-  justify-content: center;
+.navbar a, .nav-item a {
   margin: 10px 20px;
   border-radius: 12px;
   text-transform: uppercase;
   font-size: 16px;
-  line-height: 12px;
+  line-height: 20px; /* Adjust if needed */
   padding: 8px 0;
   font-family: 'Roboto Condensed', sans-serif;
   text-decoration: none;
@@ -52,7 +58,8 @@ body {
 }
 
 #basic-navbar-nav {
-  display: flex;
-  justify-content: center;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center; /* This might be redundant if it's already applied to .navbar */
   width: 100%;
 }

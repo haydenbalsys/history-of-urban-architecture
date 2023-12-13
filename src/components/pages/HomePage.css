@@ -1,13 +1,22 @@
 
-.text {
+.text1 {
   font-family: 'Yeseva One', cursive;
   text-align: center;
+}
+.text {
+  font-family: 'Yeseva One', cursive;
+  text-align: left;
 }
 h1 {
   font-family: 'Yeseva One', cursive;
   font-weight: bold;
+  text-align: center;
 }
-
+h3 {
+  font-family: 'Yeseva One', cursive;
+  font-weight: bold;
+  text-align: center;
+}
 .main {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -15,9 +24,15 @@ h1 {
   display: flex;
   align-items: center;
   flex-direction: column; 
-  margin-bottom: 500px;
+  margin-bottom: 10px;
 }
-
+.barcaPic {
+  width: 80%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  /* add heavy shadown */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
 .col {
   max-width: 700px;
   min-width: 100px;
