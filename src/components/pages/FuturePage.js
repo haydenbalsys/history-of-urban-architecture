@@ -43,6 +43,12 @@ export default function Future() {
                         <img className="futurePic" src={future} alt="city" />
                     </div>
                 </div>
+                <p className="citation">
+                [Photograph of a field of flowers]. (n.d). https://www.pinterest.com/pin/6614730677300937/
+                </p>
+                <p className="citation">
+                Frasers Property Australia. (2018). Walkable communities mean you can leave the car at home and avoid peak-hour traffic [Photograph]. realestate.com.au. https://www.realestate.com.au/advice/walkable-communities-way-of-the-future/
+                </p>
             </div>
         </div>
     );

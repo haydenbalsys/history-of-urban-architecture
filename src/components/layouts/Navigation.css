@@ -62,4 +62,5 @@ body {
   justify-content: center !important;
   align-items: center; /* This might be redundant if it's already applied to .navbar */
   width: 100%;
+  margin-right: 60px;
 }

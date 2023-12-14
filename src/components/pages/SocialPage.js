@@ -44,6 +44,12 @@ export default function Social() {
                         <img className="copenhagenPic" src={copenhagen} alt="city" />
                     </div>
                 </div>
+                <p className="citation">
+                Bratland, D. (2018). US traffic deaths per VMT, VMT, per capita, and total annual deaths [Graph]. Wikipedia. https://en.wikipedia.org/wiki/Motor_vehicle_fatality_rate_in_U.S._by_year#/media/File:US_traffic_deaths_per_VMT,_VMT,_per_capita,_and_total_annual_deaths.png
+                </p>
+                <p className="citation">
+                Jagerhaus, S. (2022). Copenhagen, Stroget [Photograph]. Arch Daily. https://www.archdaily.com/976607/whats-the-matter-with-american-cities
+                </p>
             </div>
         </div>
     );

@@ -28,7 +28,7 @@ export default function Navigation() {
                             </Nav.Item>
                             <Nav.Item className="link">
                                 <NavLink to="/future-implications" onClick={() => setExpanded(false)}>
-                                    What the Future Holds
+                                    Our Future
                                 </NavLink>
                             </Nav.Item>
                         </Nav>

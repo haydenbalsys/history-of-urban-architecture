@@ -45,6 +45,12 @@ export default function History() {
                         <img className="carPic" src={car} alt="car" />
                     </div>
                 </div>
+                <p className="citation">
+                Norton, P. (1972). Stop de Kindermoord in the Netherlands: demonstrators block a dangerous intersection in Amsterdam [Photograph]. Medium. https://medium.com/vision-zero-cities-journal/the-baby-carriage-blockades-9b33c64db34d
+                </p>
+                <p className="citation">
+                [Photograph of a car on top of a pillar with the text “The Empty Promise of Freedom]. (1973). https://michiganintheworld.history.lsa.umich.edu/environmentalism/exhibits/show/main_exhibit/pollution_politics/national--air-quality/reforming-the-auto-industry
+                </p>
             </div>
         </div>
     );
