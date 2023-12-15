@@ -35,3 +35,12 @@
     text-align: center;
     margin-top: 20px;
 }
+
+.textBottom {
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px !important;
+    max-width: 1500px;
+    margin: auto;
+}

@@ -43,6 +43,14 @@ export default function Future() {
                         <img className="futurePic" src={future} alt="city" />
                     </div>
                 </div>
+                <p className="textBottom">
+                    Overall, we can see how cars have negatively impacted and completely uprooted the
+                    lives of the people living in the cities, who didn’t mind walking or biking from place
+                    to place. As a result, mass murder of innocent pedestrians occurred. One prime example of
+                    this can be seen through Robert Moses’s construction of the Cross Bronx Expressway. Those living
+                    in the buildings that the expressway tore through were forced out of their homes with no regard as 
+                    to what their opinions were. What’s even more concerning is how there is still an incredible amount of death surrounding vehicles, from car accidents to deliberate hit-and-runs. The automobile industry is directly responsible for how urban planning and infrastructure have been shaped, and we can now see that walking from place to place is exponentially more difficult with how our cities are currently laid out. In the end, we can see that current urban and transportation systems are designed with a primary focus on generating financial returns rather than addressing community needs.
+                </p>
                 <p className="citation">
                 [Photograph of a field of flowers]. (n.d). https://www.pinterest.com/pin/6614730677300937/
                 </p>

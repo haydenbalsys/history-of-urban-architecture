@@ -44,6 +44,14 @@ export default function Social() {
                         <img className="copenhagenPic" src={copenhagen} alt="city" />
                     </div>
                 </div>
+                <p className="textBottom">
+                    Furthermore, Marx's critique of the American model raises important questions about
+                     equity and accessibility. The reliance on automobiles can marginalize those
+                      who cannot afford them, creating socioeconomic divides in mobility and access 
+                      to resources. The European model, in contrast, suggests a more inclusive 
+                      approach, where public transportation serves as a great equalizer, offering 
+                      mobility to a broader segment of the population.
+                </p>
                 <p className="citation">
                 Bratland, D. (2018). US traffic deaths per VMT, VMT, per capita, and total annual deaths [Graph]. Wikipedia. https://en.wikipedia.org/wiki/Motor_vehicle_fatality_rate_in_U.S._by_year#/media/File:US_traffic_deaths_per_VMT,_VMT,_per_capita,_and_total_annual_deaths.png
                 </p>
