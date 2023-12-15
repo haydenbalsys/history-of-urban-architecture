@@ -18,7 +18,7 @@ export default function Home() {
                     <img className="barcaPic" src={barcelona} alt="Barcelona" />
                 </div>
                 <div className="col">
-                    <h3 className="title">This is a report on the book Road to Nowhere by Paris Marx</h3>
+                    <h3 className="title">This is a report on the book <em>Road to Nowhere</em> by Paris Marx</h3>
                     <p className="text1">
                         Focused on the research question: How has the technological innovation of
                         urban planning and road infrastructure been pushed in a way that negatively
